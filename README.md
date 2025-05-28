@@ -75,7 +75,7 @@ The API will be available at `http://127.0.0.1:8000/docs`.
 
 ---
 
-## 🐳 Docker (Optional)
+## Docker (Optional)
 
 To build and run the app using Docker:
 
