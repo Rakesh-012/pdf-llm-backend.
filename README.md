@@ -12,8 +12,6 @@ A FastAPI-based backend service for uploading PDF documents, extracting their co
 - Pagination for document listing
 - Dockerized for containerized deployment
 
----
-
 ## Directory Structure
 
 ```
@@ -71,8 +69,6 @@ uvicorn app.main:app --reload
 
 The API will be available at `http://127.0.0.1:8000/docs`.
 
----
-
 ## Docker (Optional)
 
 To build and run the app using Docker:
@@ -82,8 +78,6 @@ docker build -t pdf-llm-backend .
 docker run -p 8000:8000 --env-file .env pdf-llm-backend
 ```
 
----
-
 ## Testing
 
 You can test the API through the built-in Swagger UI at:
@@ -91,8 +85,6 @@ You can test the API through the built-in Swagger UI at:
 ```
 http://127.0.0.1:8000/docs
 ```
-
----
 
 ## Assumptions
 
