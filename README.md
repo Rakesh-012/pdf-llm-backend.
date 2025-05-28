@@ -1,6 +1,6 @@
 # PDF-LLM Backend
 
-A FastAPI-based backend service for uploading PDF documents, extracting their content, and using a Large Language Model (LLM) like OpenAI or Gemini to generate summaries and answer questions based on the PDF content.
+A FastAPI-based backend service for uploading PDF documents, extracting their content, and using a Large Language Model (LLM) Gemini to generate summaries and answer questions based on the PDF content.
 
 ---
 
